@@ -15,7 +15,8 @@
         "README.md": true,
         "tailwind.config.ts": true,
         "node_modules": true,
-        "tsconfig.json": true
+        "tsconfig.json": true,
+        "public": true
     },
     "hide-files.files": [
         ".eslintrc.json",
@@ -27,6 +28,7 @@
         "README.md",
         "tailwind.config.ts",
         "node_modules",
-        "tsconfig.json"
+        "tsconfig.json",
+        "public"
     ]
 }

@@ -1,3 +1,6 @@
+import NavBarComponent from "@/components/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import "./globals.css";
 
 
@@ -9,7 +12,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <NavBarComponent />
+       <main>
+         {children}
+       </main> 
       </body>
     </html>
   );

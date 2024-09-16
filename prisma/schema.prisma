@@ -17,3 +17,14 @@ model User {
   email String  @unique
   name  String?
 }
+
+model Examplaire {
+  id String  @id @default(auto()) @map("_id") @db.ObjectId
+  name String 
+  email String @unique
+  description String 
+  isCorrect Boolean 
+  Image String
+  Docum
+
+}
